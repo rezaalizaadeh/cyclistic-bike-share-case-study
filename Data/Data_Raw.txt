@@ -1,0 +1,32 @@
+Raw Dataset Description
+
+This project uses 12 months of Cyclistic (Divvy) bike-share trip data
+from November 2024 through October 2025.  
+The raw CSV files range from ~30 MB to ~150 MB each and exceed GitHub’s
+upload size limits, so they are not included in this repository.
+
+Raw files included in local storage:
+- 202411-divvy-tripdata.csv
+- 202412-divvy-tripdata.csv
+- 202501-divvy-tripdata.csv
+- 202502-divvy-tripdata.csv
+- 202503-divvy-tripdata.csv
+- 202504-divvy-tripdata.csv
+- 202505-divvy-tripdata.csv
+- 202506-divvy-tripdata.csv
+- 202507-divvy-tripdata.csv
+- 202508-divvy-tripdata.csv
+- 202509-divvy-tripdata.csv
+- 202510-divvy-tripdata.csv
+
+Source:
+Official Divvy/Cyclistic public ride history data  
+(usage permitted for analysis under their data license).
+
+URL:
+https://divvy-tripdata.s3.amazonaws.com/index.html
+
+Notes:
+- Raw data contains inconsistent timestamps, missing station names,
+  negative/zero ride durations, and missing user types.
+- These issues were handled during the cleaning phase.
