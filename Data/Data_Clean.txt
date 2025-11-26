@@ -1,0 +1,32 @@
+Clean Dataset Description
+
+This folder refers to the cleaned datasets generated from the raw
+Cyclistic data covering November 2024 to October 2025.
+
+The cleaned CSV files were produced using:
+Scripts/load_and_clean.R
+
+Cleaned files not uploaded (due to size ~800 MB total):
+- all_trips_cleaned.csv
+- all_trips_final.csv
+
+Key Cleaning Steps:
+- Combined 12 monthly CSVs (Nov 2024 → Oct 2025)
+- Removed:
+    • duplicate entries
+    • negative or zero ride lengths
+    • missing station names
+    • missing user type (member/casual)
+- Converted timestamps to POSIXct
+- Engineered fields:
+    • ride_length (minutes)
+    • day_of_week
+    • month
+    • hour_of_day
+    • weekend/weekday indicator
+    • ride_type (member vs casual)
+
+These cleaned datasets feed:
+- Summary tables (in /Summaries)
+- Visualizations (in /Visuals)
+- The final report in /Final_report
