@@ -87,19 +87,23 @@ Summary CSVs are available in `Summaries/`.
 
 ---
 
-## 📈 Visualizations (ggplot2)
+## 📈 Visualizations
 
-Created in `Scripts/visualizations.R` and exported to `Visuals/`:
+This project includes visualizations created using both **R (ggplot2)** and **Tableau Public**.
 
+### R Visualizations
+Generated in `Scripts/visualizations.R` and exported to `Visuals/`:
 - Hourly ride trends  
 - Monthly usage patterns  
 - Weekday vs weekend behavior  
-- Distribution of ride lengths  
-- Top stations  
-- Top routes  
-- Heatmap (hour × weekday)  
+- Ride length distributions  
+- Top start & end stations  
+- Most common routes  
+- Heatmap of weekday × hour usage  
 
-Plots were also used in the Tableau dashboard.
+### Tableau Dashboard
+An interactive dashboard combining these insights was built in Tableau.  
+You can view it online or download the packaged workbook from the `Tableau/` folder.
 
 ---
 
@@ -137,5 +141,5 @@ Located in `/Final_report/`:
 ## 📬 Contact
 
 **Reza Mahin Mohammadzadeh**  
-GitHub: https://www.linkedin.com/in/reza-alizadeh-6a5847244/
+Linkedin: https://www.linkedin.com/in/reza-alizadeh-6a5847244/
 Tableau: https://public.tableau.com/app/profile/reza.mahin.mohammadalizadeh/vizzes 
