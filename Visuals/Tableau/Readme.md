@@ -4,7 +4,7 @@ This dashboard visualizes key behavioral differences between casual and member r
 
 ## Tableau Public Link
 View the live dashboard here:  
-https://public.tableau.com/app/profile/reza.mahin.mohammadalizadeh/viz/CyclisticBikeShareUsage/CyclisticDashboard
+https://public.tableau.com/app/profile/reza.mahin.mohammadalizadeh/viz/Book2_17641673815860/CyclisticBike-ShareUsagePatterns
 
 ## Included in this folder
 - dashboard_full.png   # Full dashboard screenshot
