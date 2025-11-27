@@ -1,19 +1,36 @@
-# Tableau Dashboard
+Tableau Dashboard
 
-This dashboard visualizes key behavioral differences between casual and member riders using the Cyclistic bike-share dataset.
+This section contains the Tableau visualizations created for the Cyclistic Bike-Share Case Study.
+These charts highlight behavioral differences between casual and member riders.
 
-## Tableau Public Link
-View the live dashboard here:  
+⸻
+
+Tableau Public Link
+
+View the full interactive dashboard here:
+
 https://public.tableau.com/app/profile/reza.mahin.mohammadalizadeh/viz/Book2_17641673815860/CyclisticBike-ShareUsagePatterns
 
-## Included in this folder
-- dashboard_full.png   # Full dashboard screenshot
-- chart1_total_rides.png (optional)
-- chart2_avg_duration.png (optional)
-- chart3_day_of_week.png (optional)
-- heatmap_casual.png (optional)
-- heatmap_member.png (optional)
+⸻
 
-## Why the .twbx file is not included?
-The Tableau packaged workbook (.twbx) is 125 MB, exceeding GitHub's 100 MB limit.  
-It can be viewed directly via the Tableau Public link above.
+Included in This Folder
+
+These PNG files are exported directly from the Tableau dashboard:
+	•	tableau_dashboard.png — Full dashboard export
+	•	Total Number of Rides by User Type.png
+	•	Average Ride Duration by User Type (in Minutes).png
+	•	Total Rides by Day of Week (Members vs. Casual Riders).png
+	•	Avg Ride Duration by Day of Week.png
+	•	Casual Riders.png — Heatmap (Hour × Weekday)
+	•	Member Riders.png — Heatmap (Hour × Weekday)
+
+These images allow GitHub users to view the Tableau results without opening Tableau.
+
+⸻
+
+Why the .twbx File Is Not Included?
+
+The Tableau packaged workbook (.twbx) is 125 MB, which exceeds GitHub’s 100 MB maximum file size limit.
+For this reason, the file cannot be uploaded to the repository.
+
+However, the full interactive dashboard is publicly available through the Tableau Public link above.
